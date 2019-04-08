@@ -1,0 +1,320 @@
+body
+{
+	width: 100%;
+	max-width: 1004px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: "Futura PT", sans-serif;
+	color: #fffca4;
+}
+.wrapper{
+	width: 100%;
+}
+header
+{
+	width: 100%;
+	height: auto;
+	background: url(../images/headerFon.jpg) center top no-repeat;
+}
+#logo img{
+	float: left;
+	width: 15%;
+}
+h1{
+	width: 80%;
+	font-size: 40px;
+	padding-top: 15px;
+	margin-left: 100px; 
+}
+.menu1{
+	width: 100%;
+	height: 195px;
+	margin: 80px auto 0px auto;
+}
+/*Контейнеры для меню*/
+.left, .right{
+	display: inline-block;
+	width: 30%;
+	margin: 0px 0px 100px 140px;
+}
+.left{
+	float: left;
+}
+.menu1 a{
+	font-size: 20px;
+}
+.left div, .right div{
+	width: 45%;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px;
+	background-color: #381000;
+	border: 2px solid #381000; 
+}
+.left div:hover, .right div:hover{
+	border: 2px solid #fffca4; 
+}
+#main{
+	margin-left: 90px;
+}
+#company{
+	margin-left: 50px;
+	/*border: 2px solid #fffca4;*/
+}
+#search{
+	margin-left: 0px;
+}
+#galery{
+	margin-left: 30px;
+}
+#contacts{
+	margin-left: 70px;
+}
+/*Вкладка "О компании" для адаптивного дизайна*/
+#vkladka{
+	height: 0px;
+	overflow: hidden;
+}
+.svitok1{
+	width: 50%;
+	height: 80px;
+	margin-left: 263px;
+	background: url(../images/svitok1.png) center center no-repeat;
+}
+.bodymain{
+	width: 100%;
+	height: 685px;
+	background-image: url(../images/dnoFon.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.colleft{
+	width: 25%;
+	height: 685px;
+	float: left;
+}
+.colleft img{
+	width: 80%;
+	display: block;
+	margin-top: 35px;
+}
+.pirania img{
+	width: 100%;
+}
+.colcenter{
+	float: left;
+	width: 50%;
+	margin-left: 15px;
+	background: url(../images/svitok2.png) center top no-repeat;
+}
+.svitok3{
+	width: 100%;
+	height: 80px;
+	margin: 25px 0px 40px 5px;
+	background: url(../images/svitok3.png) center bottom no-repeat;
+}
+.content{
+	margin: 0px auto;
+	width: 65%;
+	text-align: justify;
+	color: #381000;
+}
+.content a{
+	color: #1899e1;
+	font-weight: normal;
+}
+/* текст "Дорогие друзья"*/
+#greetings{
+	font-size: 20px;	
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+.content .line{
+	width: 50%;
+	height: 2px;
+	background-color: #381000;
+	margin: 5px auto;
+}
+#invite{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px auto;
+	line-height: 130%;
+}
+.colright{
+	width: 23%;
+	float: right;
+	margin: 25px 5px 0px 0px;
+}
+/*Баннер-анимация справа*/
+.colright img{
+	padding: 1px;
+	width: 90%;
+	border: 2px solid #fffca4;
+} 
+.colright ol{
+	text-align: right;
+	padding: 10px 10px;
+}
+.colright p{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 10px;
+	text-align: right;
+}
+.colright .new{
+	background: url(../images/new.png) center left no-repeat;
+	margin-left: 70px;
+}
+h1, .colright, #invite, .menu{
+	text-shadow: 2px 2px 2px black;
+}
+footer{
+width: 100%;
+height: 180px;
+background-color: black;
+font-size: 14px;
+}
+.sports{
+	float: left;
+	width: 15%;
+	text-align: left;
+	margin: 37px auto;
+	margin-left: 20px;
+}
+.sports li{
+	margin: 5px;
+}
+.icons{
+	float: left;
+	width: 50%;
+	height: 30px;
+	margin: 30px 0px 55px 80px;
+}
+.icons img{
+	width: 9%;
+	margin: 0px 10px;
+}
+.menu2{
+	float: left;
+	width: 50%;
+	margin: 33px 0px 0px 80px;
+}
+.menu2 li{
+	display: inline-block;
+	margin: 0px 1px;
+}
+.copyright, .design{
+	margin: 0px 10px 0px 0px;
+	float: right;
+	width: 20%;
+	text-align: right;
+	font-weight: bold;
+}
+
+	@media screen and (max-width: 480px) and (min-width: 320px){
+.wrapper{
+	width: 100%;
+}
+.adaptive{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+header{
+	width: 100%;
+	height: 260px;
+}
+#logo img{
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 25%;
+}
+h1{
+	margin: 0px auto;
+	font-size: 31px;
+}
+#vkladka{
+	width: 55%;
+	height: 20px;
+	margin: 40px auto 10px auto;
+	text-align: center;
+	padding: 5px;
+	background-color: #fffca4;
+	border-radius: 20px;
+	color: #381000;
+	font-size: 18px;
+}
+.bodymain, .colcenter{
+	background-image: none;
+}	
+.colleft{
+	width: 100%;
+	height: 370px;
+}
+.colleft img{
+	width: 95%;
+	height: 75px;
+	margin: 5px auto;
+}
+.content{
+	font-size: 17px;
+	width: 97%;
+}
+.colcenter, .colright, .icons, .copyright, footer{
+	clear: both;
+}	
+.colcenter{
+	width: 90%;
+}
+#invite{
+	margin: 15px auto;
+	font-size: 18px;
+	color: #381000;
+	text-shadow: none;
+}
+.colright{
+	width: 100%;
+	font-size: 22px;
+	margin: 15px auto;
+	text-align: center;
+	background-color: #fffca4;
+	border-radius: 35px;
+}
+.colright li{
+	text-align: center;
+}
+.colright a{
+	color: #381000;	
+	text-shadow: none;
+	}
+.colright p{
+	font-size: 26px;
+	margin: 10px auto;
+	text-align: center;
+	text-shadow: none;
+	color: #73d56c;
+}
+.colright .new{
+	margin-left: 15px;
+}
+.left, .right, .svitok1, .svitok3, .pirania img, .colright img, .sports, .menu2 li, .design{
+	display: none;
+}
+.icons{
+	width: 100%;
+	margin: 20px auto;
+}
+.icons img{
+	margin: 0px 3px;
+	width: 15%;
+}
+.copyright{
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+	}

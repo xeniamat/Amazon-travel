@@ -1,0 +1,119 @@
+﻿<!doctype html>
+<html>	
+<head>
+	<meta charset="utf-8">
+	<title>AmazonTravel</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<script type="text/javascript"></script>
+	<script type="text/javascript" src="../scripts/slider.js"></script>
+<style>
+#maindiv {
+	position: relative;
+	margin: 0px auto;
+	padding: 5px;
+	width: 80%;
+	height:525px;
+	background-color: #381000;
+	border: 3px solid black;
+	border-radius:5px;
+}
+#scr {
+	margin:0px auto;
+	width: 95%;
+	height: 480px;
+	margin-top:10px;
+	background-color: white;
+	background-size:cover;
+	border: 2px solid black;
+}
+button {
+	position: relative;
+	margin: 200px auto;
+	width: 10%;
+	height: 20px;
+	font: 12pt arial sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.left {
+	left:403px;
+	top: 503px;
+}
+.right {
+	right: 330px;
+	top: 10px;	
+}
+</style>
+	
+<body>
+	<div class="wrapper">
+	<div class="adaptive"> <!-- черный блок-хэдер для адаптивного дизайна--> 
+	<div id="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a></div>
+	</div>
+	
+	<header>
+	<h1>Открой мир заново вместе с нами!</h1>
+	<div class="menu1">
+		<div class="left"> <!-- Отдельные блоки для оформления навигационного меню -->
+			<div id="main"><a href="../index.html">главная</a></div> 
+			<div id="company"><a href="#">о компании</a></div>
+			<div id="search"><a href="#">поиск тура</a></div>
+		</div>
+		<div class="right"> <!-- Отдельные блоки для оформления навигационного меню -->
+			<div id="news"><a href="news.html">новости</a></div>
+			<div id="galery"><a href="galery.html">галерея</a></div>
+			<div id="contacts"><a href="contacts.html">контакты</a></div>
+		</div>
+	<div id="popugai"></div>
+	</div>
+	<div class="svitok1"></div> <!-- Верхняя часть изображения свитка -->
+    </header>
+
+	<div class="bodymain">
+	<div id="maindiv">
+		<button class="left" onclick="slider.left();">>>></button>
+		<div id="scr"></div>
+		<button class="right" onclick="slider.right();"><<<</button>
+	</div> 
+	<div id="invite">
+		Мы ждем вас в нашем офисе! <br>г.Минск, пр-т Машерова, 3, комн. 46 <br> тел. 8(029)593-94-51
+	</div>
+	</div> <!-- закрыли класс bodymain-->
+	
+<footer>
+	<div class="sports">
+		<ul>
+			<li><a href="#">дайвинг</a></li> 
+			<li><a href="#">альпинизм</a></li>
+			<li><a href="#">парашютинг</a></li>
+			<li><a href="#">охота</a></li>
+			<li><a href="№">каноэ</a></li>
+		</ul>
+	</div>
+	<div class="icons">	
+		<a href="#"><img src="../images/socseti/ikonkaVk.jpg" alt="ikonkaVk"></a>
+		<a href="#"><img src="../images/socseti/ikonkaF.jpg" alt="ikonkaF"></a>
+		<a href="#"><img src="../images/socseti/ikonkaTw.jpg" alt="ikonkaTw"></a>
+		<a href="#"><img src="../images/socseti/ikonkaOk.jpg" alt="ikonkaOk"></a>
+	</div>
+	<div class="menu2">	
+		<ol>
+			<li><a href="../index.html">[главная]</a></li> 
+			<li><a href="#">[о компании]</a></li>
+			<li><a href="#">[поиск тура]</a></li>
+			<li><a href="news.html">[новости]</a></li>
+			<li><a href="galery.html">[галерея]</a></li>
+			<li><a href="contacts.html">[контакты]</a></li>
+		</ol>
+	</div>
+		<p class="copyright">&copy ЧТУП «AmazonTravel»</p>
+		<p class="design">Дизайн и разработка:<br> Е.Старовойтова, 2016</p>
+</footer>
+	</div> <!-- закрыли класс wrapper-->
+	
+
+</body>
+
+</html>

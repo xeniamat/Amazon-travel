@@ -1,0 +1,141 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+	<title>AmazonTravel</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<style>
+	table{background-color:#eeeeee;
+		padding:50px;
+		border:1px #777777 solid;}
+	table{background-color:#381000;
+		border:0px;
+		width: 100%;
+		height: 400px;
+		margin: 0px auto;
+		border-radius: 10px;}
+	textarea{height: 120px;
+		width: 88%;}
+	td{width: 300px;}
+	tr{padding:50px;}
+	</style>
+	<script type="text/javascript" src="../jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../scripts/vesla.js"></script>
+	<script type="text/javascript" src="../scripts/forma.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+	<div class="adaptive"> <!-- черный блок-хэдер для адаптивного дизайна--> 
+	<div id="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a></div>
+	</div>
+	<header>
+	
+	<h1>Открой мир заново вместе с нами!</h1>
+	<div class="menu1">
+		<div class="left"> <!-- Отдельные блоки для оформления навигационного меню -->
+			<div id="main"><a href="../index.html">главная</a></div> 
+			<div id="company"><a href="#">о компании</a></div>
+			<div id="search"><a href="#">поиск тура</a></div>
+		</div>
+		<div class="right"> <!-- Отдельные блоки для оформления навигационного меню -->
+			<div id="news"><a href="news.html">новости</a></div>
+			<div id="galery"><a href="galery.html">галерея</a></div>
+			<div id="contacts"><a href="contacts.html">контакты</a></div>
+		</div>
+	<div id="popugai"></div>
+	</div>
+	<div class="svitok1"></div> <!-- Верхняя часть изображения свитка -->
+    </header>
+
+	<div class="bodymain">
+	<div class="colleft">
+	<p><a href="#"><img class="link" src="../images/sports/daiving.png" alt="daiving"></a></p>
+	<a href="#"><img class="link" src="../images/sports/alpinizm.png" alt="alpinizm"></a>
+	<a href="#"><img class="link" src="../images/sports/parashuting.png" alt="parashuting"></a>
+	<a href="#"><img class="link" src="../images/sports/ohota.png" alt="ohota"></a>
+	<a href="#"><img class="link" src="../images/sports/kanoe.png" alt="kanoe"></a>
+		<div class="pirania">
+			<img src="../images/pirania.gif" alt="pirania"> <!-- анимация с пираньей -->
+		</div>
+	</div>
+
+	<div class="colcenter">
+	<div id="vkladka">О компании</div> <!-- вкладка "О компании" для адаптивного дизайна--> 
+			<div class="content"> 
+
+			<!--ФОРМА ОТПРАВКИ СООБЩЕНИЯ--> 
+			<form name="myForm" onsubmit="return validate(this); ">
+			<table>
+			<tr><td colspan="3" align="center"><h3>НАПИШИТЕ НАМ!</h3></td></tr>
+				<tr><td>*Имя</td><td><input type="text" name="ima" maxlength = "16"></td></tr>	
+				<tr><td>*E-mail</td><td><input type="text" name="mail" maxlength = "16"></td></tr>	
+				<tr><td>*Сообщение</td><td><textarea name="message"></textarea></td></tr>	
+				<tr><td></td><td><input  type="submit"  value="Отправить сообщение"></td></tr>	
+			</table>
+			</form>
+			<p style="text-align: center; padding: 1px;">* обязательные для заполнения поля</p>
+			</div> 
+				
+	<div class="svitok3"></div>
+		<div id="invite">
+		Мы ждем вас в нашем офисе! <br>г.Минск, пр-т Машерова, 3, комн. 46 <br> тел. 8(029)593-94-51
+		</div>
+	</div> <!-- закрыли класс colcenter--> <!-- Нижняя часть изображения свитка -->
+
+	<div class="colright">
+	<a href="slider.html"><img src="../images/banner.gif" alt="banner"><br></a>
+		<p>Популярные страны:</p>
+		<ol>
+			<li class="new"><a href="#">Бразилия</a></li>
+			<li><a href="#">Доминикана</a></li>
+			<li><a href="#">Куба</a></li>
+			<li><a href="#">Мальдивы</a></li>
+			<li><a href="#">Малайзия</a></li>
+			<li class="new"><a href="#">Индонезия</a></li>
+			<li><a href="#">Тайланд</a></li>
+			<li><a href="#">Аргентина</a></li>
+			<li><a href="#">Шри-Ланка</a></li>
+			<li><a href="#">Индия</a></li>
+			<li class="new"><a href="#">Мадагаскар</a></li>
+			<li><a href="#">Филиппины</a></li>
+			<li><a href="#">Гоа</a></li>
+			<li><a href="#">...</a></li>
+    	</ol>
+	</div>
+	</div> <!-- закрыли класс bodymain-->
+	
+<footer>
+	<div class="sports">
+		<ul>
+			<li><a href="#">дайвинг</a></li> 
+			<li><a href="#">альпинизм</a></li>
+			<li><a href="#">парашютинг</a></li>
+			<li><a href="#">охота</a></li>
+			<li><a href="№">каноэ</a></li>
+		</ul>
+	</div>
+	<div class="icons">	
+		<a href="#"><img src="../images/socseti/ikonkaVk.jpg" alt="ikonkaVk"></a>
+		<a href="#"><img src="../images/socseti/ikonkaF.jpg" alt="ikonkaF"></a>
+		<a href="#"><img src="../images/socseti/ikonkaTw.jpg" alt="ikonkaTw"></a>
+		<a href="#"><img src="../images/socseti/ikonkaOk.jpg" alt="ikonkaOk"></a>
+	</div>
+	<div class="menu2">	
+		<ol>
+			<li><a href="../index.html">[главная]</a></li> 
+			<li><a href="#">[о компании]</a></li>
+			<li><a href="#">[поиск тура]</a></li>
+			<li><a href="news.html">[новости]</a></li>
+			<li><a href="galery.html">[галерея]</a></li>
+			<li><a href="contacts.html">[контакты]</a></li>
+		</ol>
+		</div>
+		<p class="copyright">&copy ЧТУП «AmazonTravel»</p>
+		<p class="design">Дизайн и разработка:<br> Е.Старовойтова, 2016</p>
+</footer>
+	</div> <!-- закрыли класс wrapper-->
+	</body>
+</html>
+
+
