@@ -1,0 +1,158 @@
+html {
+	width: 100%;
+}
+
+.content {
+	margin: 0 70px;
+}
+
+header {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: -25px;
+}
+
+header>div {
+	margin-top: 25px;
+	margin-right: 25px;
+	background-color: #777777;
+}
+
+.logo {
+	flex-grow: 1;
+}
+
+.more {
+	flex-grow: 2;
+}
+
+.contact {
+	flex-grow: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.contact>a {
+	margin: 5px;
+	color: white;
+}
+
+hr {
+	margin-top: 25px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 25px;
+}
+
+.main-left {
+	color: white;
+	background-color: #777777;
+	width: 185px;
+	margin-right: 25px;
+	padding: 0 25px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+
+.main-right {
+	flex-grow: 4;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+
+.right-middle {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: -25px;
+}
+
+.right-top {
+	background-color: #c2c2c2;
+	padding: 10px 25px;
+	margin-bottom: 25px;
+}
+
+.item {
+	margin-right: 25px;
+	margin-bottom: 25px;
+	width: 135px;
+	height: 155px;
+	background-color: #c2c2c2;
+}
+
+.right-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-right: -25px;
+}
+
+.right-bottom>div {
+	margin-right: 25px;
+	padding: 0 25px;
+	background-color: #c2c2c2;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 25px;
+	margin-right: -25px;
+}
+
+.left-item,
+.middle-item {
+	background-color: #777777;
+	padding: 0 25px 25px;
+}
+
+footer>div {
+	color: white;
+	margin-right: 25px;
+	max-height: 180px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+
+.left-item ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.left-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.right-item {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: -25px;
+
+}
+
+.top {
+	background-color: #777777;
+	margin-bottom: 25px;
+	width: 100%;
+	height: 50%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
